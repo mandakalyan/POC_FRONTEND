@@ -1,0 +1,8 @@
+.recon-page {
+    display: flex;
+    width: 100%;
+    .recon-container {
+      flex: 6;
+    }
+  }
+  

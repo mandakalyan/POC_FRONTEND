@@ -1,0 +1,51 @@
+.reconciliation-button{
+    color: #d64e4e;
+    position: relative;
+    left:40%;
+    top: 150px;
+}
+
+/* reconciliation.css */
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .grid-item {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .grid-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  .grid-key {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .grid-value {
+    flex-grow: 1;
+  }
+  .self-reconciliation-button{
+    position: relative;
+    left:38%;
+    top:160px;
+  }
+   /* Add these CSS classes to your CSS file */
+.matched-status {
+  color: green;
+}
+
+.not-matched-status {
+  color: red;
+}
+
+  
